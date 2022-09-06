@@ -22,11 +22,17 @@ Windows Bat: ./venv/Scripts/activate.bat
 - Cripy Bootstrap 5: `pip install crispy-bootstrap5`
 
 ### Or you can choose to install the requirements of this file:
-`pip install -r requirements.txt`
+```pip install -r requirements.txt```
 
 ## Create Models and Apply changes in generic DB
-`python manage.py makemigrations agendapp`
-`python manage.py migrate`
+```
+python manage.py makemigrations agendapp
+```
+```
+python manage.py migrate
+```
 
 ## Run Server
-`python manage.py runserver`
+```
+python manage.py runserver
+```
