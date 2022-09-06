@@ -33,16 +33,16 @@ class CreateUserView(SuccessMessageMixin, generic.CreateView):
     fields = '__all__'
     template_name = 'agendapp/create.html'
     success_url = reverse_lazy('agendapp:index')
-    success_message = "Usuario %(name)s ha sido creado con Exito!"
+    success_message = "User %(name)s created!"
 
 class EditUserView(SuccessMessageMixin, generic.UpdateView):
     model = User
     fields = '__all__'
     template_name = 'agendapp/edit.html'
     success_url = reverse_lazy('agendapp:index')
-    success_message = "Usuario %(name)s actualizado con Exito!"
+    success_message = "User %(name)s updated!"
 
 class DeleteUserView(SuccessMessageMixin, generic.DeleteView):
     model = User
     success_url = reverse_lazy('agendapp:index')
-    success_message = "Usuario eliminado con Exito!"
+    success_message = "User deleted!"
