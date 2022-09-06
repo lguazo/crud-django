@@ -10,8 +10,8 @@ python -m venv venv
 
 #Activate your virtual env
 Unix or Mac os: source venv/bin/activate
-Windows PS1: ./venv/Scripts/activate.ps1
-Windows Bat: ./venv/Scripts/activate.bat
+Windows Powershell: .\venv\Scripts\activate.ps1
+Windows CMD: .\venv\Scripts\activate.bat
 ```
 
 ## Install thir party dependencies
