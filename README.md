@@ -1,9 +1,9 @@
 # CRUD-Django
 
 # Prerequisites
-You need to have python 3.9.13 minimun verison installed
+You need to have python 3.9.13 minimun version installed
 
-## Create and activae your Python Virtual Env
+## Create and activate your Python Virtual Env
 ```
 #Create virtual env
 python -m venv venv
@@ -14,7 +14,7 @@ Windows Powershell: .\venv\Scripts\activate.ps1
 Windows CMD: .\venv\Scripts\activate.bat
 ```
 
-## Install thir party dependencies
+## Install third party dependencies
 
 - Django: `pip install "Django==4.1"`
 - Django Bootstrap v5: `pip install django-bootstrap-v5`
